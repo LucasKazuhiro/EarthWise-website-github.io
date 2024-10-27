@@ -11,8 +11,6 @@
         <link rel="stylesheet" href="menu-footer/footer/footer.css">
         <link rel="stylesheet" href="menu-footer/menu/menu.css">
         <link rel="stylesheet" href="index-responsive.css">
-
-        <script src="/repo-name-url.js" defer></script>
     </head>
 
     <body>
@@ -173,4 +171,10 @@
         </div>
 
     </body>
+    <script type="module">
+        import { loadMenuFooter } from '../../menu-footer/loadMenuFooter.js';
+
+        loadMenuFooter('menu-importado', '../../menu-footer/menu/menu.html');
+        loadMenuFooter('box-footer', '../../menu-footer/footer/footer.html')
+    </script>
 </html>
